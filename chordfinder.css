@@ -1,0 +1,730 @@
+/*
+chordfinder.css contents
+1. html
+2. body
+3. fretboard
+4. root
+5. dummy
+6. quality
+7. capo
+8. submit
+9. result
+10. string6 - string 1
+11. start of individual note-string styling
+  a. first string
+  b. second string
+  c. third string
+  d. fourth string
+  e. fifth string
+  f. sixth string
+*/
+
+html { 
+  background: url(guitarbackground.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body {
+   color: #584834;
+}
+
+
+#fretboard {
+  background-image: url(fretboard.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 500px;
+}
+
+
+#root {
+  position: absolute; 
+    top: 100px;
+    left: 100px;
+}
+
+#dummy {
+   position: absolute;
+     top: 0px;
+     right: 0px;
+}
+
+#quality {
+  position: absolute; 
+    top: 100px;
+    left: 250px;
+}
+
+
+#capo {
+  position: absolute; 
+    top: 100px;
+    left: 480px;
+}
+
+
+#submit {
+  position: absolute;
+    top: 115px;
+    left: 550px;
+}
+
+
+#result {
+  position: absolute;
+    top: 380px;
+    left: 200px;
+  font-size: 34px;
+}
+
+
+#string6 {
+  position: absolute;
+    top: 160px;
+    left: 810px;
+}
+
+
+#string5 {
+  position: absolute;
+    top: 170px;
+    left: 890px;
+}
+
+
+#string4 {
+  position: absolute;
+    top: 180px;
+    left: 970px;
+}
+
+
+#string3 {
+  position: absolute;
+    top: 425px;
+    left: 970px;
+}
+
+
+#string2 {
+  position: absolute;
+    top: 415px;
+    left: 890px;
+}
+
+
+#string1 {
+  position: absolute;
+    top: 405px;
+    left: 810px;
+}
+
+
+
+
+
+
+/* 1st string display */
+
+
+#d00 {
+  position: absolute;
+    top: 302px;
+    left: 784px;
+  color: white;
+  font-size: 14px;
+}
+
+#d01 {
+  position: absolute;
+    top: 303px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d02 {
+  position: absolute;
+    top: 303px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d03 {
+  position: absolute;
+    top: 303px;
+    left: 581px;
+  color: white;
+  font-size: 14px;
+}
+
+#d04 {
+  position: absolute;
+    top: 303px;
+    left: 523px;
+  color: white;
+  font-size: 14px;
+}
+
+#d05 {
+  position: absolute;
+    top: 303px;
+    left: 466px;
+  color: white;
+  font-size: 14px;
+}
+
+#d06 {
+  position: absolute;
+    top: 303px;
+    left: 412px;
+  color: white;
+  font-size: 14px;
+}
+
+#d07 {
+  position: absolute;
+    top: 303px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d08 {
+  position: absolute;
+    top: 303px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d09 {
+  position: absolute;
+    top: 303px;
+    left: 268px;
+  color: white;
+  font-size: 14px;
+}
+
+#d010 {
+  position: absolute;
+    top: 303px;
+    left: 227px;
+  color: white;
+  font-size: 14px;
+}
+
+#d011 {
+  position: absolute;
+    top: 303px;
+    left: 186px;
+  color: white;
+  font-size: 14px;
+}
+
+
+/* 2nd string display */
+
+
+#d10 {
+  position: absolute;
+    top: 287px;
+    left: 784px;
+  color: white;
+  font-size: 14px;
+}
+
+#d11 {
+  position: absolute;
+    top: 288px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d12 {
+  position: absolute;
+    top: 288px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d13 {
+  position: absolute;
+    top: 287px;
+    left: 580px;
+  color: white;
+  font-size: 14px;
+}
+
+#d14 {
+  position: absolute;
+    top: 287px;
+    left: 523px;
+  color: white;
+  font-size: 14px;
+}
+
+#d15 {
+  position: absolute;
+    top: 287px;
+    left: 465px;
+  color: white;
+  font-size: 14px;
+}
+
+#d16 {
+  position: absolute;
+    top: 287px;
+    left: 412px;
+  color: white;
+  font-size: 14px;
+}
+
+#d17 {
+  position: absolute;
+    top: 286px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d18 {
+  position: absolute;
+    top: 286px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d19 {
+  position: absolute;
+    top: 286px;
+    left: 268px;
+  color: white;
+  font-size: 14px;
+}
+
+#d110 {
+  position: absolute;
+    top: 286px;
+    left: 227px;
+  color: white;
+  font-size: 14px;
+}
+
+#d111 {
+  position: absolute;
+    top: 285px;
+    left: 186px;
+  color: white;
+  font-size: 14px;
+}
+
+
+
+
+/* 3rd string display */
+
+
+#d20 {
+  position: absolute;
+    top: 273px;
+    left: 783px;
+  color: white;
+  font-size: 14px;
+}
+
+#d21 {
+  position: absolute;
+    top: 273px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d22 {
+  position: absolute;
+    top: 270px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d23 {
+  position: absolute;
+    top: 270px;
+    left: 580px;
+  color: white;
+  font-size: 14px;
+}
+
+#d24 {
+  position: absolute;
+    top: 270px;
+    left: 523px;
+  color: white;
+  font-size: 14px;
+}
+
+#d25 {
+  position: absolute;
+    top: 270px;
+    left: 465px;
+  color: white;
+  font-size: 14px;
+}
+
+#d26 {
+  position: absolute;
+    top: 269px;
+    left: 410px;
+  color: white;
+  font-size: 14px;
+}
+
+#d27 {
+  position: absolute;
+    top: 269px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d28 {
+  position: absolute;
+    top: 268px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d29 {
+  position: absolute;
+    top: 269px;
+    left: 268px;
+  color: white;
+  font-size: 14px;
+}
+
+#d210 {
+  position: absolute;
+    top: 268px;
+    left: 227px;
+  color: white;
+  font-size: 14px;
+}
+
+#d211 {
+  position: absolute;
+    top: 268px;
+    left: 185px;
+  color: white;
+  font-size: 14px;
+}
+
+
+/* 4th string display */
+
+
+#d30 {
+  position: absolute;
+    top: 259px;
+    left: 782px;
+  color: white;
+  font-size: 14px;
+}
+
+#d31 {
+  position: absolute;
+    top: 259px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d32 {
+  position: absolute;
+    top: 257px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d33 {
+  position: absolute;
+    top: 256px;
+    left: 580px;
+  color: white;
+  font-size: 14px;
+}
+
+#d34 {
+  position: absolute;
+    top: 255px;
+    left: 523px;
+  color: white;
+  font-size: 14px;
+}
+
+#d35 {
+  position: absolute;
+    top: 254px;
+    left: 465px;
+  color: white;
+  font-size: 14px;
+}
+
+#d36 {
+  position: absolute;
+    top: 253px;
+    left: 410px;
+  color: white;
+  font-size: 14px;
+}
+
+#d37 {
+  position: absolute;
+    top: 252px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d38 {
+  position: absolute;
+    top: 251px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d39 {
+  position: absolute;
+    top: 253px;
+    left: 268px;
+  color: white;
+  font-size: 14px;
+}
+
+#d310 {
+  position: absolute;
+    top: 252px;
+    left: 227px;
+  color: white;
+  font-size: 14px;
+}
+
+#d311 {
+  position: absolute;
+    top: 250px;
+    left: 185px;
+  color: white;
+  font-size: 14px;
+}
+
+
+
+/* 5th string display */
+
+#d40 {
+  position: absolute;
+    top: 244px;
+    left: 780px;
+  color: white;
+  font-size: 14px;
+}
+
+#d41 {
+  position: absolute;
+    top: 244px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d42 {
+  position: absolute;
+    top: 241px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d43 {
+  position: absolute;
+    top: 241px;
+    left: 580px;
+  color: white;
+  font-size: 14px;
+}
+
+#d44 {
+  position: absolute;
+    top: 240px;
+    left: 522px;
+  color: white;
+  font-size: 14px;
+}
+
+#d45 {
+  position: absolute;
+    top: 238px;
+    left: 465px;
+  color: white;
+  font-size: 14px;
+}
+
+#d46 {
+  position: absolute;
+    top: 238px;
+    left: 410px;
+  color: white;
+  font-size: 14px;
+}
+
+#d47 {
+  position: absolute;
+    top: 237px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d48 {
+  position: absolute;
+    top: 236px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d49 {
+  position: absolute;
+    top: 236px;
+    left: 265px;
+  color: white;
+  font-size: 14px;
+}
+
+#d410 {
+  position: absolute;
+    top: 236px;
+    left: 227px;
+  color: white;
+  font-size: 14px;
+}
+
+#d411 {
+  position: absolute;
+    top: 234px;
+    left: 185px;
+  color: white;
+  font-size: 14px;
+}
+
+
+/* 6th string display */
+
+#d50 {
+  position: absolute;
+    top: 228px;
+    left: 780px;
+  color: white;
+  font-size: 14px;
+}
+
+#d51 {
+  position: absolute;
+    top: 228px;
+    left: 710px;
+  color: white;
+  font-size: 14px;
+}
+
+#d52 {
+  position: absolute;
+    top: 226px;
+    left: 645px;
+  color: white;
+  font-size: 14px;
+}
+
+#d53 {
+  position: absolute;
+    top: 225px;
+    left: 580px;
+  color: white;
+  font-size: 14px;
+}
+
+#d54 {
+  position: absolute;
+    top: 224px;
+    left: 522px;
+  color: white;
+  font-size: 14px;
+}
+
+#d55 {
+  position: absolute;
+    top: 222px;
+    left: 465px;
+  color: white;
+  font-size: 14px;
+}
+
+#d56 {
+  position: absolute;
+    top: 221px;
+    left: 410px;
+  color: white;
+  font-size: 14px;
+}
+
+#d57 {
+  position: absolute;
+    top: 221px;
+    left: 363px;
+  color: white;
+  font-size: 14px;
+}
+
+#d58 {
+  position: absolute;
+    top: 220px;
+    left: 315px;
+  color: white;
+  font-size: 14px;
+}
+
+#d59 {
+  position: absolute;
+    top: 218px;
+    left: 265px;
+  color: white;
+  font-size: 14px;
+}
+
+#d510 {
+  position: absolute;
+    top: 217px;
+    left: 229px;
+  color: white;
+  font-size: 14px;
+}
+
+#d511 {
+  position: absolute;
+    top: 215px;
+    left: 185px;
+  color: white;
+}
+
+
