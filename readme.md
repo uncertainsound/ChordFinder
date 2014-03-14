@@ -20,3 +20,5 @@ Organization
     7. chordfinderprocess.php - glue for functions, walks through the process of the app
     8. index.php - includes chordfinder.php; allows the app to work from index
     9. sounds.php - currently working as note name display; planned to act as a link to sound files for the notes
+    10. fretboard.jpg - fretboard for display
+    11. guitarbackground.jpg - background for the entire page
