@@ -1,5 +1,5 @@
 html { 
-  background: url(guitarbackground.jpg); 
+  background: url(images/guitarbackground.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,7 +13,7 @@ body {
 
 
 #fretboard {
-  background-image: url(fretboard.jpg);
+  background-image: url(images/fretboard.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 500px;
