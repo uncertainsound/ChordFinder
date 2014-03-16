@@ -1,4 +1,20 @@
 <?php
+/*
+	Contents
+	1. put tuning string into array
+	2. make array for each string
+	3. get chord root and quality
+	4. turn root and quality into numbered notes
+	5. turn numbered notes into numbers between 0-11
+	6. turn numbered notes into note names
+	7. turn numbered string notes into numberd between 0-11
+	8. convert guitar string numbered notes into note names
+	9. put guitar strings into associative array
+	10. check chord against guitar string array
+	11. convert root number into root name for display
+	12. find parts of the chord
+	13. make a display out of each string
+*/
 
   
 //putting submitted string tuning into an array
