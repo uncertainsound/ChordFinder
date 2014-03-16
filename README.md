@@ -9,24 +9,19 @@ A working version can be found at: http://matt.narwhale.org/web/chordfinder/
 
 It has been tested to display correctly on Firefox, Chrome, and mobile devices.
 
-
-Update history:
-
-3-15-14: added sounds for individual notes
-
 Future features to add are: 
 
-Sounds for voicings/inversions 
+Sounds for individual notes and voicings/inversions 
 
 Display different voicings - by top or bottom note Generate tab
 
-Organization The app is split into several different files. They are as follows. 
+Organization The app is split into several different files. There are as follows. 
 
 1. chordfinder.css - CSS for the app 
 
 2. chordfinder.php - used to connect the different parts 
 
-3. chordfinderdisplay.php - main display of the app; calls sounds.php to link sounds and note names
+3. chordfinderdisplay.php - main display of the app; calls sounds.php for planned feature (see sounds.php)
 
 4. chordfinderform.php - Input form for app (eg. chord root, quality, tuning) 
 
@@ -38,7 +33,7 @@ Organization The app is split into several different files. They are as follows.
 
 8. index.php - includes chordfinder.php; allows the app to work from index 
 
-9. sounds.php - currently working as note name display and as a link to sound files for the notes 
+9. sounds.php - currently working as note name display; planned to act as a link to sound files for the notes 
 
 10. fretboard.jpg - fretboard for display 
 
