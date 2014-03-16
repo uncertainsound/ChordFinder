@@ -1,5 +1,3 @@
-<!--Input form for chord finder-->
-
 <div id="fretboard">   
 </div>
 
@@ -35,7 +33,7 @@
 <option value="dom9">Dominant 9</option>
 <option value="min7">Minor 7</option>
 <option value="minmaj7">Minor/Major 7</option>
-<option value="halfdim7">Half Diminished 7 (minor 7b5)</option>
+<option value="halfdim7">Half Diminished 7</option>
 <option value="dim7">Diminished 7</option>
 </select>
 </p>

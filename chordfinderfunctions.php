@@ -1,31 +1,23 @@
 <?php
 
-//functions for the chord finder
-/* contents
-   1. tuningfunction
-   2. chordmaker
-   3. reducer
-   4. noteconverter
-   5. associator
-   6. notecheck
-*/
 
-//tuningfunction builds each string based upon the selected tuning
 function tuningfunction ($stringarray) {
     $stringpointer = $stringarray;
+
     //make empty array to put each guitar string into
     $string = array();
+
   //for loop to populate each guitar string array with note numbers
   for ($n = 0; $n < 12; $n++) {
     $string[] = $stringpointer;
     $stringpointer ++;
   }
+
   //returns array populated with note numbers
   return $string;
 }
 
 
-//chordmaker builds chord based on root and quality
 function chordmaker ($root, $quality) {
   $chordarray = array();
 
@@ -37,6 +29,7 @@ function chordmaker ($root, $quality) {
       if ($quality == "maj" || $quality == "aug" || $quality == "maj7" || $quality == "dom7" || $quality == "dom7b9" || $quality == "dom9") {
          $third = $root + 4;
       }
+
    //minor 3rd
       if ($quality == "min" || $quality == "dim" || $quality == "min7" || $quality == "minmaj7" || $quality == "halfdim7" || $quality == "dim7") {
         $third = $root + 3;
@@ -47,10 +40,12 @@ function chordmaker ($root, $quality) {
      if ($quality == "dim" || $quality == "halfdim7" || $quality == "dim7") {
        $fifth = $root + 6;
      }
+
     //Augmented 5th
      else if ($quality == "aug") {
        $fifth = $root + 8;
      }
+
     //Perfect 5th
      else {
        $fifth = $root + 7;
@@ -61,10 +56,12 @@ function chordmaker ($root, $quality) {
     if ($quality == "maj7" || $quality == "minmaj7") {
        $seventh = $root + 11;
     }      
+
     //Minor 7th
     if ($quality == "dom7" || $quality == "dom7b9" || $quality == "dom9" || $quality == "min7" || $quality == "halfdim7") {
       $seventh = $root + 10;
     }
+
    //Diminished 7th
     if ($quality == "dim7") {
       $seventh = $root + 9;
@@ -75,6 +72,7 @@ function chordmaker ($root, $quality) {
     if ($quality == "dom9") {
       $ninth = $root + 14;
     }
+
    //Flat 9
    if ($quality == "dom7b9") {
       $ninth = $root + 13;
@@ -83,7 +81,6 @@ function chordmaker ($root, $quality) {
    //adding notes to chordarray
    $chordarray = array($root, $third, $fifth);
   
-  //if the chord contains a seventh or a ninth
    if (isset ($seventh)) {
      $chordarray[] = $seventh;
     } 
@@ -94,8 +91,6 @@ function chordmaker ($root, $quality) {
   return $chordarray;
 }
 
-
-//reducer changes notenumbers >11 into numbers between 0-11
 function reducer ($chordarray) {
   for ($n = 0; $n < count($chordarray); $n++) {
     if ($chordarray[$n] > 11) {
@@ -105,8 +100,6 @@ function reducer ($chordarray) {
   return $chordarray;
 }
 
-
-//noteconverter converts numbered notes into named notes
 function noteconverter ($numberednotes) {
     $allnotes = array(
       "0" => "C",
@@ -126,10 +119,10 @@ function noteconverter ($numberednotes) {
     $notename = $allnotes[$numberednotes[$n]];
     $notesarray[$n] = $notename;
   }
+
   return $notesarray;
 }
 
-//associator connects notes with guitar strings
 function associator ($notesarray) {
   $associative_array = array(
     "$notesarray[0]" => "0",
@@ -145,10 +138,10 @@ function associator ($notesarray) {
     "$notesarray[10]" => "10",
     "$notesarray[11]" => "11"
     );
+
   return $associative_array;
 }
 
-//notechecks puts compares notes in the chord with notes on the string
 function notecheck ($notearray, $string_array) {
 $matchednotes = 0;
 

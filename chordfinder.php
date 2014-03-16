@@ -2,10 +2,7 @@
 
 <head>
 
-<title>Guitar Chord Finder</title>
-
-
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="chordfinder.css">
 
 
@@ -38,6 +35,7 @@ if (isset($_GET['submit'])) {
     include 'chordfinderdisplay.php';
     include 'chordfinderkey.php';
 
+//end of if (isset($_GET['submit']))  
 }
 
 
